@@ -4,6 +4,7 @@
 - Python 3.12.0
 
 ## How to use
+1. `python -m venv bpr-gui`
 1. `bpr-gui\Scripts\activate`
 1. `pip install -r requirements.txt`
 1. `python app.py`
