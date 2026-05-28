@@ -13,3 +13,13 @@
 1. Train BPR model: This will produce a file with the results on test set that is 
 extracted from the dataset.
 1. Export All Recommendations: will export the recommendations to excel file
+
+## Notes
+- Rating can be equal to 1 or more to make the product rank as positive feedback.
+    - Purchase quantities for products can be used just fine without normalization as long as quantities more than or equal to 1 count as positive feedback.
+    - You could also making the rating equal to 1 for all products as long as purchasing the product count as positive feedback.
+    - You could also manipulate the threshold in the code at which products are ranked as positive feedback.
+
+- BPR focuses on ranking the products the correct way and not scoring the rating the correct way. That is why rating scores does not matter that much for BPR.
+
+- You could use normalization functions on rating for other algorithms such as Matrix Factorization (MF). You could modify that in the code.
