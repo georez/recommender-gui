@@ -1,0 +1,5 @@
+cornac
+pandas
+openpyxl
+pillow
+pandastable
