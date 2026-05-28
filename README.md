@@ -1,4 +1,4 @@
-# Recommender GUI
+# Recommender GUI using: BRP (Bayesian Personalized Ranking)
 
 ## Requirements
 - Python 3.12.0
